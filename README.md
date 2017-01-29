@@ -6,7 +6,32 @@ Hadoop provides native support for windows from version 2.2. As of now, Apache H
 So I have Downloaded the official source package from here:
 http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.2/hadoop-2.7.2-src.tar.gz
 
-and built a Windows Package For Windows 64bit Users.
+The Path to Building on Windows:
+
+Requirements:
+
+* Windows System
+* JDK 1.7+
+* Maven 3.0 or later
+* ProtocolBuffer 2.5.0
+* CMake 2.6 or newer
+* .NET Framework 4.0 (ONLY)
+* Windows SDK 7.1 
+* Visual Studio 2010 
+* Cygwin
+* Internet connection for building (to fetch all Maven and Hadoop dependencies)
+
+
+All the Above Softwares Needs To Be Installed and " ENVIRONMENT VARIABLES " Must be set "Perfectly".
+
+Also set, 
+
+Platform=x64 in ENVIRONMENT VARIABLES under System Variables.
+
+From The Root Directory from Source Package Run:
+
+mvn package -Pdist,native-win -DskipTests -Dtar
+
 
 
 I have even Posted Some Images of this Hadoop Distribution working Perfectly at my blog.
