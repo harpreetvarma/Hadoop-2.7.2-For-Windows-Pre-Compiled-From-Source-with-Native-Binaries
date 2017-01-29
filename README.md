@@ -8,6 +8,12 @@ http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.2/hadoop-2.7.2-src
 
 and built a Windows Package For Windows 64bit Users.
 
+
+I have even Posted Some Images of this Hadoop Distribution working Perfectly at my blog.
+
+http://www.apirobuzz.com/2017/01/hadoop-272-pre-compiled-for-windows-x64.html
+
+
 Windows 64 bit Users Can Download it from this https://drive.google.com/file/d/0BxI56NUuiAg3ZTFBTUdvNFZneVE/view?usp=sharing
 
 After You download Follow the Instructions from here:
