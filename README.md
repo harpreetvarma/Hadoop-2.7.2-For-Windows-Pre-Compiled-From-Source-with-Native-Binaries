@@ -1,10 +1,12 @@
 Hadoop-2.7.2-on-Windows-with-Native-Binaries
 
 
-Hadoop provides native support for windows from version 2.2. As of now, Apache Hadoop didn't provide official Release / Support for Windows Users.
+As of now, Apache Hadoop didn't provide official Release / Support for Windows Users.
 
 So I have Downloaded the official source package from here:
 http://www.apache.org/dyn/closer.cgi/hadoop/common/hadoop-2.7.2/hadoop-2.7.2-src.tar.gz
+
+and build a Pre-Compiled Package For Windows Users for Directly Downloading From here & Working On this Package.
 
 The Path to Building on Windows:
 
